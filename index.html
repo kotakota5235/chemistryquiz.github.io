@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>応用化学特論 マルバツ Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ホーム画面 -->
+<div id="home" class="screen">
+  <h1>応用化学特論</h1>
+  <p class="subtitle">マルバツ 確認テスト（第1〜8回）</p>
+
+  <button id="start-all" class="start-all-btn">全問ランダムで始める（120問）</button>
+
+  <div id="session-list" class="session-list"></div>
+</div>
+
+<!-- Quiz画面 -->
+<div id="quiz" class="screen">
+  <div class="quiz-header">
+    <button id="back-home" class="back-btn">← ホーム</button>
+    <div class="progress-wrap">
+      <div class="progress-label" id="progress-label">1 / 15</div>
+      <div class="progress-bar">
+        <div class="progress-fill" id="progress-fill" style="width:0%"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="question-card">
+    <div>
+      <div class="question-num" id="q-num">問 1 / 15</div>
+      <div class="question-text" id="q-text"></div>
+    </div>
+
+    <div>
+      <div class="answer-btns">
+        <button id="btn-circle" class="ans-btn" title="正しい（○）">○</button>
+        <button id="btn-cross" class="ans-btn" title="間違い（✗）">✗</button>
+      </div>
+
+      <div id="feedback" class="feedback">
+        <span class="feedback-badge" id="feedback-badge"></span>
+        <div class="correct-answer" id="correct-answer"></div>
+        <button id="next-btn" class="next-btn" style="display:none">次の問題 →</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 結果画面 -->
+<div id="result" class="screen">
+  <p style="color:#888; font-size:0.85rem;">クイズ終了</p>
+  <div class="result-score" id="result-score">0%</div>
+  <p class="result-label" id="result-label"></p>
+
+  <div class="result-stats">
+    <div class="stat-card">
+      <div class="stat-num" id="stat-correct" style="color:#2e7d32">0</div>
+      <div class="stat-desc">正解</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num" id="stat-wrong" style="color:#c62828">0</div>
+      <div class="stat-desc">不正解</div>
+    </div>
+  </div>
+
+  <div id="wrong-section" class="wrong-list">
+    <h3>間違えた問題</h3>
+    <div id="wrong-list-items"></div>
+  </div>
+
+  <div class="result-btns">
+    <button id="retry-wrong-btn" class="btn-primary">間違えた問題だけ再挑戦</button>
+    <button id="retry-btn" class="btn-secondary">もう一度（同じ範囲）</button>
+    <button id="home-btn" class="btn-secondary">ホームへ戻る</button>
+  </div>
+</div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
