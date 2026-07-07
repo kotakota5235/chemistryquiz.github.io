@@ -189,27 +189,6 @@ const SESSIONS = [
     ]
   },
   {
-    id: 11,
-    title: "第11回 消化器系作用薬",
-    questions: [
-      { id: 1, text: "制酸薬は胃酸を中和する薬であり、胃の中がpH7程度になるように服用する。", correct: false, explanation: "胃の中がpH7ではなく，pH4〜4.5程度になるようにする。" },
-      { id: 2, text: "ヒスタミンH2遮断薬は、胃酸の分泌を抑制する。", correct: true, explanation: "" },
-      { id: 3, text: "糖尿薬に使われる生薬は、甘い。", correct: false, explanation: "甘いではなく苦い生薬が使われる。" },
-      { id: 4, text: "ドパミンD2受容体拮抗薬は、胃運動を促進する。", correct: true, explanation: "" },
-      { id: 5, text: "化学受容器引金帯（CTZ）には、ドパミンD2受容体、セロトニン5-HT3受容体が存在する。", correct: true, explanation: "" },
-      { id: 6, text: "セロトニン5HT3遮断薬は、抗がん剤による吐き気や乗り物酔いに効き目がある。", correct: false, explanation: "セロトニン5-HT3遮断薬は抗がん剤による吐き気に効果があるが，乗り物酔いには効果はない。" },
-      { id: 7, text: "ヒスタミンH2遮断薬は、乗り物酔いに効果がある。", correct: false, explanation: "乗り物酔いに効果があるのはH2遮断薬ではなくH1遮断薬（抗ヒスタミン薬）。" },
-      { id: 8, text: "トウゴマの種子から採取されるヒマシ油は、下剤として使われる。", correct: true, explanation: "" },
-      { id: 9, text: "ビスマスの化合物は、腸を保護する目的で収斂薬として使用される。", correct: true, explanation: "" },
-      { id: 10, text: "酒石酸抑薬（催吐薬）はアルコールの分解を抑制し、気分を悪くさせる。", correct: false, explanation: "アルコールではなくアセトアルデヒドの分解を抑制し，気分を悪くさせる。" },
-      { id: 11, text: "非ステロイド抗炎症薬には、胃粘膜を保護する効果がある。", correct: false, explanation: "非ステロイド抗炎症薬（NSAIDs）は胃粘膜を保護するのではなく，胃粘膜障害を起こす。" },
-      { id: 12, text: "アスピリンは、アセチルサリチル酸のことである。", correct: true, explanation: "" },
-      { id: 13, text: "アスピリンは、毒性が比較的強いので、日常的な解熱、鎮痛薬としては使わない。", correct: false, explanation: "アスピリンは日常的な解熱・鎮痛薬として使われる。毒性が比較的強く日常使用しないのはインドメタシン。" },
-      { id: 14, text: "ステロイド抗炎症薬には免疫抑制作用があり、感染症の増悪という副作用もある。", correct: true, explanation: "" },
-      { id: 15, text: "ステロイド抗炎症薬の副作用の一つとして、骨粗鬆症がある。", correct: true, explanation: "" },
-    ]
-  },
-  {
     id: 10,
     title: "第10回 消化器系の生化学，生理学",
     questions: [
@@ -230,4 +209,26 @@ const SESSIONS = [
       { id: 15, text: "植物ヒマから作られるリシンは，人類史上，最も毒性が強い物質の一つである。", correct: true, explanation: "" },
     ]
   },
+  {
+    id: 11,
+    title: "第11回 消化器系作用薬",
+    questions: [
+      { id: 1, text: "制酸薬は胃酸を中和する薬であり、胃の中がpH7程度になるように服用する。", correct: false, explanation: "胃の中がpH7ではなく，pH4〜4.5程度になるようにする。" },
+      { id: 2, text: "ヒスタミンH2遮断薬は、胃酸の分泌を抑制する。", correct: true, explanation: "" },
+      { id: 3, text: "糖尿薬に使われる生薬は、甘い。", correct: false, explanation: "甘いではなく苦い生薬が使われる。" },
+      { id: 4, text: "ドパミンD2受容体拮抗薬は、胃運動を促進する。", correct: true, explanation: "" },
+      { id: 5, text: "化学受容器引金帯（CTZ）には、ドパミンD2受容体、セロトニン5-HT3受容体が存在する。", correct: true, explanation: "" },
+      { id: 6, text: "セロトニン5HT3遮断薬は、抗がん剤による吐き気や乗り物酔いに効き目がある。", correct: false, explanation: "セロトニン5-HT3遮断薬は抗がん剤による吐き気に効果があるが，乗り物酔いには効果はない。" },
+      { id: 7, text: "ヒスタミンH2遮断薬は、乗り物酔いに効果がある。", correct: false, explanation: "乗り物酔いに効果があるのはH2遮断薬ではなくH1遮断薬（抗ヒスタミン薬）。" },
+      { id: 8, text: "トウゴマの種子から採取されるヒマシ油は、下剤として使われる。", correct: true, explanation: "" },
+      { id: 9, text: "ビスマスの化合物は、腸を保護する目的で収斂薬として使用される。", correct: true, explanation: "" },
+      { id: 10, text: "酒石酸抑薬（催吐薬）はアルコールの分解を抑制し、気分を悪くさせる。", correct: false, explanation: "アルコールではなくアセトアルデヒドの分解を抑制し，気分を悪くさせる。" },
+      { id: 11, text: "非ステロイド抗炎症薬には、胃粘膜を保護する効果がある。", correct: false, explanation: "非ステロイド抗炎症薬（NSAIDs）は胃粘膜を保護するのではなく，胃粘膜障害を起こす。" },
+      { id: 12, text: "アスピリンは、アセチルサリチル酸のことである。", correct: true, explanation: "" },
+      { id: 13, text: "アスピリンは、毒性が比較的強いので、日常的な解熱、鎮痛薬としては使わない。", correct: false, explanation: "アスピリンは日常的な解熱・鎮痛薬として使われる。毒性が比較的強く日常使用しないのはインドメタシン。" },
+      { id: 14, text: "ステロイド抗炎症薬には免疫抑制作用があり、感染症の増悪という副作用もある。", correct: true, explanation: "" },
+      { id: 15, text: "ステロイド抗炎症薬の副作用の一つとして、骨粗鬆症がある。", correct: true, explanation: "" },
+    ]
+  },
+
 ];
