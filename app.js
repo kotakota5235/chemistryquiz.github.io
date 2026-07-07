@@ -121,7 +121,7 @@ function buildHome() {
   SESSIONS.forEach(s => {
     const btn = document.createElement("button");
     btn.className = "session-btn";
-    btn.innerHTML = `<span class="session-name">${s.title}</span><span class="session-count">${s.questions.length}問</span>`;
+    btn.innerHTML = `<span class="session-name"><i class="fa-solid fa-vial"></i> ${s.title}</span><span class="session-count">${s.questions.length}問 <i class="fa-solid fa-chevron-right"></i></span>`;
     btn.onclick = () => startQuiz([s.id]);
     list.appendChild(btn);
   });
