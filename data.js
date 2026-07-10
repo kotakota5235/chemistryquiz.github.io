@@ -171,13 +171,6 @@ const SESSIONS = [
     id: 9,
     title: "第9回 呼吸器系・循環器系作用薬",
     questions: [
-      { id: 1, text: "ヘモグロビン１分子は，２分子の酸素と結合できる。", correct: false, explanation: "ヘモグロビン1分子には4つのサブユニットがあり，4分子の酸素と結合できる。" },
-      { id: 2, text: "組織では，低酸素状態で酸素飽和度が低下しても，血中酸素分圧は低く保たれる。", correct: false, explanation: "低酸素状態では血中酸素分圧も低下する（低く保たれるのではなく低下する）。" },
-      { id: 3, text: "血液のpH低下やCO₂増加は，ヘモグロビンから酸素を離れやすくさせる。", correct: true, explanation: "" },
-      { id: 4, text: "頸動脈小体にはCO₂の分圧センサーがある。", correct: false, explanation: "頸動脈小体は主にO₂の分圧センサー。CO₂・pHの中枢センサーは延髄の腹側にある。" },
-      { id: 5, text: "肺静脈は，心臓の右心室から肺に向かう血管で，静脈血が流れている。", correct: false, explanation: "肺静脈は肺から左心房へ向かう血管で，動脈血（酸素化された血液）が流れている。右心室から肺へは肺動脈。" },
-      { id: 6, text: "高カリウム血症では，心電図においてT波が増高し，テント状となる。", correct: true, explanation: "" },
-      { id: 7, text: "副腎皮質ステロイド薬は，気管支喘息の治療薬として使用される。", correct: true, explanation: "" },
       { id: 8, text: "テオフィリンは，cAMPの合成を促進することで，気管支を拡張させる。", correct: false, explanation: "テオフィリンはホスホジエステラーゼ（PDE）を阻害してcAMPの分解を抑制する（合成促進ではない）。" },
       { id: 9, text: "コデインは，咳反射の中枢である延髄に作用して，鎮咳効果をもたらす。", correct: true, explanation: "" },
       { id: 10, text: "ジギタリスは，Na⁺, K⁺－ATPアーゼの働きを増強する。", correct: false, explanation: "ジギタリスはNa⁺/K⁺-ATPアーゼを阻害（抑制）する。" },
