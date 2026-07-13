@@ -223,5 +223,26 @@ const SESSIONS = [
       { id: 15, text: "ステロイド抗炎症薬の副作用の一つとして、骨粗鬆症がある。", correct: true, explanation: "" },
     ]
   },
+  {
+    id: 12,
+    title: "第12回 代謝系作用薬・抗がん剤",
+    questions: [
+      { id: 1, text: "血糖値を下げるホルモンは，グルカゴンだけである。", correct: false, explanation: "血糖値を下げるのはインスリン。グルカゴンは血糖値を上げるホルモン。" },
+      { id: 2, text: "日本の成人糖尿病患者のほとんどは1型糖尿病である。", correct: false, explanation: "日本の成人糖尿病患者のほとんどは2型糖尿病である。" },
+      { id: 3, text: "チルゼパチド（商品名：マンジャロ）は，GIP受容体にもGLP-1受容体にも作用する。", correct: true, explanation: "" },
+      { id: 4, text: "GLP-1受容体の作動薬はインスリンの分泌を抑制する。", correct: false, explanation: "GLP-1受容体作動薬はインスリンの分泌を促進する（抑制ではない）。" },
+      { id: 5, text: "オルリスタットは，アミラーゼの働きを抑える。", correct: false, explanation: "オルリスタットが抑えるのはアミラーゼではなくリパーゼ（脂肪の分解を阻害）。" },
+      { id: 6, text: "オルリスタットの副作用として，下痢や肛門からの油漏れなどがある。", correct: true, explanation: "" },
+      { id: 7, text: "食欲減退薬マジンドールは，モルヒネと作用が類似している。", correct: false, explanation: "マジンドールはモルヒネではなく覚醒剤（アンフェタミン）と作用が類似している。" },
+      { id: 8, text: "甲状腺ホルモンには，ハロゲンである臭素が含まれる。", correct: false, explanation: "甲状腺ホルモンに含まれるハロゲンは臭素ではなくヨウ素。" },
+      { id: 9, text: "バセドウ病は，甲状腺の機能が低下したために起きる疾患である。", correct: false, explanation: "バセドウ病は甲状腺機能の低下ではなく亢進によって起きる疾患。" },
+      { id: 10, text: "エストロゲンは骨粗鬆症を悪化させる。", correct: false, explanation: "骨粗鬆症を悪化させるのはエストロゲンの低下。エストロゲンはむしろ治療薬になる。" },
+      { id: 11, text: "HMG-CoA還元酵素はコレステロールを生合成する酵素で，これを阻害することが高脂血症の治療になる。", correct: true, explanation: "" },
+      { id: 12, text: "陽イオン交換樹脂は，高脂血症の治療薬である。", correct: false, explanation: "高脂血症の治療薬になるのは陽イオン交換樹脂ではなく陰イオン交換樹脂（胆汁酸を吸着）。" },
+      { id: 13, text: "抗がん剤であるシスプラチンは，代表的な高度催吐性化学療法薬である。", correct: true, explanation: "" },
+      { id: 14, text: "パクリタキセルは，微小管の重合を阻害する薬である。", correct: false, explanation: "パクリタキセルは微小管の重合を阻害するのではなく，脱重合を阻害する（微小管を安定化させる）。" },
+      { id: 15, text: "タモキシフェンは抗アンドロゲン薬であり，前立腺がんの治療に使われる。", correct: false, explanation: "タモキシフェンは抗エストロゲン薬であり，乳がんの治療に使われる。" },
+    ]
+  },
 
 ];
